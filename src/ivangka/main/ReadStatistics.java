@@ -13,7 +13,7 @@ public class ReadStatistics {
     /**
      * Method to read statistics from a binary file.
      *
-     * @return the Statistics object read from the file, or a new Statistics object if the file is empty.
+     * @return the Statistics object read from the file, or a new Statistics object if the file is empty
      */
     public static Statistics readStatistics() {
 

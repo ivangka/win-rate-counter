@@ -118,8 +118,8 @@ public class Statistics implements Serializable {
     /**
      * Method to set statistics.
      *
-     * @param victories the number of victories.
-     * @param defeats   the number of defeats.
+     * @param victories the number of victories
+     * @param defeats   the number of defeats
      */
     public void setStatistics(int victories, int defeats) {
 
@@ -132,8 +132,8 @@ public class Statistics implements Serializable {
     /**
      * Private method to calculate the win rate.
      *
-     * @param victories the number of victories.
-     * @param games     the number of games.
+     * @param victories the number of victories
+     * @param games     the number of games
      */
     private void setWinRate(int victories, int games) {
 
@@ -146,7 +146,7 @@ public class Statistics implements Serializable {
     /**
      * Getter for the rounded win rate.
      *
-     * @return the rounded win rate as a string.
+     * @return the rounded win rate as a string
      */
     public String getRoundedWinRate() {
         return roundedWinRate;
@@ -155,7 +155,7 @@ public class Statistics implements Serializable {
     /**
      * Getter for victories.
      *
-     * @return the number of victories.
+     * @return the number of victories
      */
     public int getVictories() {
         return victories;
@@ -164,7 +164,7 @@ public class Statistics implements Serializable {
     /**
      * Setter for victories.
      *
-     * @param victories the number of victories to set.
+     * @param victories the number of victories to set
      */
     public void setVictories(int victories) {
         this.victories = victories;
@@ -173,7 +173,7 @@ public class Statistics implements Serializable {
     /**
      * Getter for games.
      *
-     * @return the number of games.
+     * @return the number of games
      */
     public int getGames() {
         return games;
@@ -182,7 +182,7 @@ public class Statistics implements Serializable {
     /**
      * Setter for games.
      *
-     * @param games the number of games to set.
+     * @param games the number of games to set
      */
     public void setGames(int games) {
         this.games = games;
@@ -191,7 +191,7 @@ public class Statistics implements Serializable {
     /**
      * Override the toString method to output statistics as a string.
      *
-     * @return a string representation of the statistics.
+     * @return a string representation of the statistics
      */
     @Override
     public String toString() {

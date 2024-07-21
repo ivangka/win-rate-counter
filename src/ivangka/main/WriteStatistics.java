@@ -13,7 +13,7 @@ public class WriteStatistics {
     /**
      * Method to write statistics to a binary file.
      *
-     * @param statistics the Statistics object to be written to the file.
+     * @param statistics the Statistics object to be written to the file
      */
     public static void writeStatistics(Statistics statistics) {
 

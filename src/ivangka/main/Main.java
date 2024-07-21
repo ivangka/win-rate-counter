@@ -40,7 +40,7 @@ public class Main {
     /**
      * Main method to run the program.
      *
-     * @param args command line arguments.
+     * @param args command line arguments
      */
     public static void main(String[] args) {
 
