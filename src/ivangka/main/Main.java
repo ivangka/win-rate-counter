@@ -66,21 +66,26 @@ public class Main {
                     STATISTICS.addDefeat();
                     WriteStatistics.writeStatistics(STATISTICS);
                     break;
+
                 case 1:
                     STATISTICS.addVictory();
                     WriteStatistics.writeStatistics(STATISTICS);
                     break;
+
                 case -11:
                     STATISTICS.removeVictory();
                     WriteStatistics.writeStatistics(STATISTICS);
                     break;
+
                 case -10:
                     STATISTICS.removeDefeat();
                     WriteStatistics.writeStatistics(STATISTICS);
                     break;
+
                 case 100:
                     STATISTICS.showStatistics();
                     continue label1;
+
                 case 101:
                     System.out.println("\nEnter the number of wins:");
                     int victories = scanner.nextInt();
@@ -91,6 +96,7 @@ public class Main {
                     STATISTICS.setStatistics(victories, defeats);
                     WriteStatistics.writeStatistics(STATISTICS);
                     break;
+
                 case 102:
                     System.out.println("Enter 102 again to confirm clearing statistics or any other number to cancel.\n");
                     int confirmation = scanner.nextInt();
@@ -98,12 +104,15 @@ public class Main {
                     STATISTICS.clearStatistics();
                     WriteStatistics.writeStatistics(STATISTICS);
                     break;
+
                 case 200:
                     showManual();
                     continue label1;
+
                 case 400:
                     switcher = 0;
                     break;
+
                 default:
                     System.out.println("Invalid code. Try again.\n");
                     continue;
@@ -118,4 +127,5 @@ public class Main {
         }
 
     }
+
 }
