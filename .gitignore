@@ -1,9 +1,10 @@
+statistics.bin
+docs/
+
 ### IntelliJ IDEA ###
 out/
 .idea/
-docs/
 *.iml
-statistics.bin
 
 ### Eclipse ###
 .apt_generated
