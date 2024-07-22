@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 /**
  * Main class to interact with the user and manage game statistics.
+ *
+ * @author ivangka
  */
 public class Main {
 

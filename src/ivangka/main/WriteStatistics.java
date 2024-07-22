@@ -7,6 +7,8 @@ import java.io.ObjectOutputStream;
 
 /**
  * Class to handle writing statistics to a file.
+ *
+ * @author ivangka
  */
 public class WriteStatistics {
 

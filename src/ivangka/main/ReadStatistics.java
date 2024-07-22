@@ -7,6 +7,8 @@ import java.io.ObjectInputStream;
 
 /**
  * Class to handle reading statistics from a file.
+ *
+ * @author ivangka
  */
 public class ReadStatistics {
 

@@ -6,6 +6,8 @@ import java.util.Formatter;
 
 /**
  * Class to track game statistics such as victories, games, and win rate.
+ *
+ * @author ivangka
  */
 public class Statistics implements Serializable {
 
