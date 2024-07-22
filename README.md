@@ -1,6 +1,8 @@
 # Win Rate Counter
 
-This project is a simple Java application designed to track win rate, including the number of victories, defeats, and win rate. The application provides functionality to add, remove, and display statistics, as well as to save and load statistics to and from a file.
+![GitHub repo size](https://img.shields.io/github/repo-size/ivangka/win-rate-counter?style=plastic)
+
+This project is a simple Java application designed to track game statistics, including the number of victories, defeats, and win rate. The application provides functionality to add, remove, and display statistics, as well as to save and load statistics to and from a file.
 
 ## Features
 
