@@ -11,10 +11,10 @@ This project is a simple Java application designed to track game statistics, inc
 
 ## Project Structure
 
-- **`Statistics` class**: Handles the core functionality for tracking victories, defeats, and calculating win rates.
-- **`ReadStatistics` class**: Manages reading statistics from a file.
-- **`WriteStatistics` class**: Manages writing statistics to a file and clearing the file.
-- **`Main` class**: Provides a command-line interface to interact with the user and manage statistics.
+- **`Statistics` class:** Handles the core functionality for tracking victories, defeats, and calculating win rates.
+- **`ReadStatistics` class:** Manages reading statistics from a file.
+- **`WriteStatistics` class:** Manages writing statistics to a file and clearing the file.
+- **`Main` class:** Provides a command-line interface to interact with the user and manage statistics.
 
 ## Installation
 
