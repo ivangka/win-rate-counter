@@ -2,13 +2,6 @@
 
 This project is a simple Java application designed to track game statistics, including the number of victories, defeats, and win rate. The application provides functionality to add, remove, and display statistics, as well as to save and load statistics to and from a file.
 
-## Features
-
-- **Track Victories and Defeats:** Add or remove victories and defeats.
-- **Calculate Win Rate:** Automatically calculates and displays the win rate as a percentage.
-- **Persistent Storage:** Saves statistics to a file and reads them back.
-- **Clear Statistics:** Clear all statistics and reset the file.
-
 ## Project Structure
 
 - **`Statistics` class:** Handles the core functionality for tracking victories, defeats, and calculating win rates.
